@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- 
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/bootstrap-grid.css" />
+    <link rel="stylesheet" href="/bootstrap.css" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script src="/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6817b88850.js" crossorigin="anonymous"></script>
+
+    <!-- Search Engine -->
+    <meta name="description"
+        content="Radiant is a revolutionary network designed to solve the problems with all existing blockchains in terms of scale, parallelism and Turing Complete programming. Radiant is a peer-to-peer digital asset system that enables direct exchange of value without going through a central party.">
+    <meta name="image" content="https://radiantblockchain.org/radbanner.png">
+
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Radiant: A Peer-to-Peer Digital Asset System">
+    <meta itemprop="description"
+        content="Radiant is free, open source and fairly mined (POW SHA512) community blockchain.">
+    <meta itemprop="image" content="https://radiantblockchain.org/radbanner.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Radiant: A Peer-to-Peer Digital Asset System">
+    <meta name="twitter:description"
+        content="Radiant is free, open source and fairly mined (POW SHA512) community blockchain.">
+    <meta name="twitter:site" content="@RadiantLayerOne">
+    <meta name="twitter:creator" content="@RadiantLayerOne">
+    <meta name="twitter:image:src" content="social-media-header.jpg">
+
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Radiant: A Peer-to-Peer Digital Asset System">
+    <meta name="og:description"
+        content="Radiant is free, open source and fairly mined (POW SHA512) community blockchain.">
+    <meta name="og:image" content="https://radiantblockchain.org/radbanner.png">
+    <meta name="og:url" content="https://radiantblockchain.org">
+    <meta name="og:site_name" content="Radiant">
+    <meta name="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" href="/favicon-32x32.png" />
+    <meta property="og:title" content="Radiant: A Peer-to-Peer Digital Asset System" />
+    <meta property="og:description"
+        content="Radiant is free, open source and fairly mined (POW SHA512) community blockchain." />
+    <meta property="og:image" content="https://radiantblockchain.org/radbanner.png" />
+    <title>Radiant: A Peer-to-Peer Digital Asset System</title>
+    <meta name="description"
+        content="Radiant: A Peer-to-Peer Digital Asset System. The Radiant network is a peer-to-peer digital asset system" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="herobanner">
+            <div class="hero-wrapper">
+                <div class="img-banner-wrapper">
+                    <img class="img-banner" src="fullwhite.png"/>
+                </div>
+                <h2 class="subline">
+                    A Peer-to-Peer Digital Asset System
+                </h2>
+                <div class="iconsouter">
+
+                    <div class="iconswrapper d-none d-md-flex">
+
+                        <a class="iconlink" href="https://github.com/RadiantBlockchain" target="_blank"
+                            title="Source Code and Releases">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://twitter.com/@RadiantLayerOne" target="_blank" title="Twitter">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://radiantexplorer.com" target="_blank"
+                            title="Radiant Block Explorer">
+                            <i class="fa fa-chain fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://github.com/RadiantBlockchain/electron-radiant" target="_blank"
+                            title="Radiant Desktop Wallet">
+                            <i class="fa fa-wallet fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://miningpoolstats.stream/radiant" target="_blank"
+                            title="Radiant Mining Pools">
+                            <i class="fa fa-gears fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://radiantblockchain.org/radiant.pdf" target="_blank"
+                            title="Radiant White Paper">
+                            <i class="fa fa-file-word-o fa-2x"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="iconswrapper d-md-none">
+
+                        <a class="iconlink" href="https://github.com/RadiantBlockchain" target="_blank"
+                            title="Source Code and Releases">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://twitter.com/@RadiantLayerOne" target="_blank" title="Twitter">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://radiantexplorer.com" target="_blank"
+                            title="Radiant Block Explorer">
+                            <i class="fa fa-chain fa-2x"></i>
+                        </a>
+
+
+                    </div>
+
+                    <div class="iconswrapper d-md-none">
+                        <a class="iconlink" href="https://github.com/RadiantBlockchain/electron-radiant" target="_blank"
+                            title="Radiant Desktop Wallet">
+                            <i class="fa fa-wallet fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://miningpoolstats.stream/radiant" target="_blank"
+                            title="Radiant Mining Pools">
+                            <i class="fa fa-gears fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://medium.com/@RadiantLayerOne" target="_blank"
+                            title="Radiant Medium Blog">
+                            <i class="fab fa-medium fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink"
+                            href="https://github.com/RadiantBlockchain/radiant-node/tree/master/doc/whitepaper"
+                            target="_blank" title="Radiant Github Docs">
+                            <i class="fa fa-files-o fa-2x"></i>
+                        </a>
+
+                        <a class="iconlink" href="https://radiantblockchain.org/radiant.pdf" target="_blank"
+                            title="Radiant White Paper">
+                            <i class="fa fa-file-word-o fa-2x"></i>
+                        </a>
+
+
+
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <a href="https://medium.com/@RadiantLayerOne/radiant-a-peer-to-peer-digital-asset-system-fa46bf24d544" target="_blank" class="CallOutSection d-lg-inline-block">
+                            <span class="CallOutBadge">
+                                <span class="CallOutBadgeAddonLeft">&nbsp;</span><span class="CallOutBadgeText">NEW POST</span><span class="CallOutBadgeAddonRight">&nbsp;</span>
+                            </span>
+                            <span class="CallOutText">Learn about RADIANT <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <div class="showcase-section dark">
+        <div class="container">
+            <h1>Zero compromise open-source blockchain</h1>
+            <h2>
+                The world's first breakthrough hybrid Account + UTXO based architecture engineered for massive layer one
+                (L1) on-chain scaling
+                and Turing Complete smart contracts.
+            </h2>
+
+            <div class="feature-wrapper">
+
+                <div class="row">
+
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item">
+                            <div class="features-icons-icon ">
+
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-signal fa-stack-1x i-color"></i>
+                                </span>
+
+                            </div>
+                            <div class="h3">Unbounded and Scalable</div>
+
+                            <p>
+                                Proven protocol scalability that is capable of handling thousands of transactions per
+                                second. Block sizes are
+                                decided economically by miners as the network grows.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item">
+                            <div class="features-icons-icon">
+
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+                                </span>
+
+                            </div>
+                            <div class="h3">POW SHA512/256</div>
+
+                            <p>
+                                Proof-of-work is the only consensus system for maximum security and
+                                efficiency. Embracing full decentralization so that no miner can stake to centralize the
+                                network. Fair launched and community mined from the beginning.
+                                The <a class="link" href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
+                                    target="_blank">FIPS SHA512/256 Standard</a> is up to 50% more efficient than SHA256
+                                on 64 bit architectures.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item ">
+                            <div class="features-icons-icon feature-server">
+
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                                </span>
+
+                            </div>
+                            <div class="h3">Full Stack Open Source</div>
+
+                            <p>
+                                The <a class="link" href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
+                                    target="_blank">full node, libraries and modules</a> were released from day 1. All
+                                source code is immediately available and Open Source MIT Licensed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item ">
+                            <div class="features-icons-icon ">
+
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-project-diagram  fa-stack-1x fa-inverse"></i>
+                                </span>
+
+                            </div>
+                            <div class="h3">Decentralized Network</div>
+
+                            <p>
+                                Radiant is open-source; its design is public, nobody owns or controls Radiant and
+                                everyone can take part. Anyone can start an initiative to build their dreams today.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item  ">
+                            <div class="features-icons-icon">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-bitcoin  fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="h3">Network Fuel</div>
+                            <p>
+                                The fuel for the network is the Radiant unit, which is used to pay transaction fees to
+                                miners for smart contracts and data
+                                data storage. The Radiant unit emission is similar to Bitcoin.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item">
+                            <div class="features-icons-icon feature-server">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="h3">Smart Contracts</div>
+
+                            <p>
+                                Powered by a complete set of the original OP codes, complex smart contracts like
+                                auctions, games, tokens and anything
+                                you can think of &mdash; is now possible. <a class="link"
+                                    href="https://github.com/RadiantBlockchain/scrypt-boilerplate/tree/master/contracts"
+                                    target="_blank">View contract library <i class="fa fa-external-link"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item ">
+                            <div class="features-icons-icon ">
+
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-step-forward  fa-stack-1x fa-inverse"></i>
+                                </span>
+
+                            </div>
+                            <div class="h3">Induction Proofs</div>
+
+                            <p>
+                                The induction proof system makes it possible to efficiently compose outputs in any
+                                manner, without compromising the inherent parallelism and scalability characteristics of
+                                the UTXO based architecture.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item  ">
+                            <div class="features-icons-icon">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-user  fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="h3">Account Emulation</div>
+                            <p>
+                                The world's first breakthrough hybrid Account + UTXO based architecture engineered for
+                                massive layer one (L1) on-chain scaling. Radiant offers the benefits of a UTXO
+                                blockchain along with the advanced capabilities of EVM compatible blockchains, but with
+                                none of the downsides.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="feature-item" class="features-icons-item">
+                            <div class="features-icons-icon feature-server">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x text-highlight"></i>
+                                    <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="h3">Community Driven</div>
+
+                            <p>
+                                Launched like Bitcoin, from block height 0, on 2022–06–21 02:42 UTC. No single entity
+                                controls the network and protocol.
+                                An open peer-to-peer digital asset system is available for anybody to build on top.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="showcase-section dark">
+        <div class="faq-wrapper">
+
+            <div class="container">
+                <div class="row faq-row">
+
+                    <div class="col ">
+                        <div class="header">
+                            Frequently Asked Questions
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row faq-row">
+
+
+                    <div class="col-md-6">
+                        <div class="question-header" class="text-highlight">
+                            What is Radiant?
+                        </div>
+                        <div class="answer">
+                            Radiant is a revolutionary network designed to solve the problems with all existing
+                            blockchains in terms of scale, parallelism and Turing Complete programming. Radiant is a
+                            peer-to-peer digital asset system that enables direct exchange of value without going
+                            through a central party. Similarly to Bitcoin, the Radiant network requires minimal
+                            structure, and timestamps transactions into an ongoing hash-based chain of proof-of-work
+                            (SHA512/256).
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="question-header" class="text-highlight">
+                            Who created Radiant?
+                        </div>
+                        <div class="answer">
+                            Radiant was created and bootstrapped as a community service by a tiny group of people who
+                            wanted a stable blockchain.
+                            The initiative was forged from the desire to have a scalable, unbounded blockchain that has
+                            all the best abilities
+                            between the major blockchains such as Bitcoin, Ethereum, Solana, Cardano and more.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row faq-row">
+                    <div class="col-md-6">
+                        <div class="question-header" class="text-highlight">
+                            Is there an Initial Coin Offering (ICO) for Radiant?
+                        </div>
+                        <div class="answer">
+                            There was never any public or private fundraising, no Initial Coin Offering (ICO), no
+                            securities offering, no VC, and no
+                            crowdfunding of any type. The network was fairly bootstrapped similar to Bitcoin using pure proof-of-work
+                            from block height 0 and
+                            units of Radiant are emitted to the miners for energy expended according to the network's consensus policy.
+                            Anyone may participate
+                            and earn on the network by contributing computing power, similarly to Bitcoin itself.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="question-header" class="text-highlight">
+                            Who is responsible for the Radiant network?
+                        </div>
+                        <div class="answer">
+                            Radiant uses peer-to-peer technology to operate with no central authority;
+                            managing transactions and the issuing of Radiant units is
+                            Radiant is open-source; its design is public, nobody owns or controls Radiant and everyone
+                            can take part.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row faq-row">
+                    <div class="col-md-6">
+                        <div class="question-header" class="text-highlight">
+                            How can I start to learn and develop on Radiant?
+                        </div>
+                        <div class="answer">
+                            Get started from the Radiant node, modules and libraries available on <a class="link-dark"
+                                href="https://github.com/RadiantBlockchain/scrypt-boilerplate/tree/master/contracts"
+                                target="_blank">Github. </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="question-header" class="text-highlight">
+                            Where can I learn more about the design of Radiant?
+                        </div>
+                        <div class="answer">
+                            Radiant offers the benefits of a UTXO blockchain along with the advanced capabilities of EVM
+                            compatible blockchains.
+
+                            See <a class="link-dark" href="https://radiantblockchain.org/radiant.pdf"
+                                target="_blank">Radiant White Paper </a> and <a class="link-dark"
+                                href="https://radiantblockchain.org/radiant-system-design.pdf" target="_blank">Radiant
+                                System Design Overview. </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="showcase-section dark">
+
+        <div class="container">
+
+            <div class="footerlinksection row">
+                <div class="col-md-4">
+                    <div class="footerbiosection">
+                        <div class="img-footer-wrapper">
+                            <img class="img-footer" src="fullwhite.png"/>
+                        </div>
+
+                   
+
+                        <p class="">
+                            <strong>A Peer-to-Peer Digital Asset System</strong>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="footerlinksection row">
+                      
+                        <div class="col-md-4">
+                            <FooterTitle>
+
+                            </FooterTitle>
+                            <ul class="footerul">
+
+                                  
+                                <li>
+                                    <a class="footerlink" href="https://twitter.com/@RadiantLayerOne" target="_blank" title="Twitter">
+                                        Twitter
+                                    </a>
+                                </li>
+ 
+                                <li>
+                                    <a class="footerlink" href="https://medium.com/@RadiantLayerOne" target="_blank"
+                                        title="Radiant Medium Blog">
+                                        Medium Blog       </a>
+                                </li>
+
+
+                     
+                                <li>
+                                    <a class="footerlink" href="https://radiantexplorer.com" target="_blank"
+                                        title="Radiant Block Explorer 1">
+                                        Explorer (Primary)
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink" href="https://explorer.radiant.ovh" target="_blank"
+                                        title="Radiant Block Explorer 2">
+                                        Explorer (Additional)
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink" href="https://miningpoolstats.stream/radiant" target="_blank"
+                                        title="Radiant Mining Pools">
+                                        Mining Pools
+                                    </a>
+                                </li>
+ 
+                                <li>
+                                    <a class="footerlink" href="https://github.com/RadiantBlockchain/electron-radiant" target="_blank"
+                                        title="Radiant Desktop Wallet">
+                                        Desktop Wallet
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <FooterTitle>
+
+                            </FooterTitle>
+                            <ul class="footerul">
+
+                                <li>
+                                    <a class="footerlink" href="https://github.com/RadiantBlockchain" target="_blank" title="Source Code and Releases">
+                                        Github
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink"
+                                        href="https://github.com/RadiantBlockchain/radiant-node/tree/master/doc/whitepaper"
+                                        target="_blank" title="Radiant White Paper and Docs">
+                                        Documents
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink" href="https://radiantblockchain.org/radiant.pdf" target="_blank"
+                                        title="Radiant White Paper">
+                                        White Paper
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink" href="https://radiantblockchain.org/radiant-system-design.pdf" target="_blank"
+                                        title="Radiant System Design">
+                                        System Design
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink" href="https://github.com/RadiantBlockchain/scrypt-boilerplate/tree/master/contracts" target="_blank"
+                                        title="Smart Contract Library">
+                                        Smart Contract Library
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="footerlink" href="/radiantlogos/Radiant-Logo.ai"
+                                        title="Media Assets">
+                                        Logo Assets
+                                    </a>
+                                </li>
+                            
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </FooterLinksSection>
+                <Divider></Divider>
+
+            </div>
+            <div class="codntainer">
+
+
+                &copy; 2022. MIT Licensed
+            </div>
+        </div>
+
+        <!-- Roboto Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+
+</body>
+
+</html>
